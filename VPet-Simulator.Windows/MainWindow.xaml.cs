@@ -682,6 +682,7 @@ namespace VPet_Simulator.Windows
                 {
                     var styleStruct = (STYLESTRUCT)Marshal.PtrToStructure(lParam, typeof(STYLESTRUCT));
                     styleStruct.styleNew |= (int)Win32.ExtendedWindowStyles.WS_EX_LAYERED;
+                    styleStruct.styleNew |= (int)Win32.ExtendedWindowStyles.WS_EX_TOOLWINDOW;
                     Marshal.StructureToPtr(styleStruct, lParam, false);
                     handled = true;
                 }
