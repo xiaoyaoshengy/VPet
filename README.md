@@ -1,3 +1,5 @@
+# 注意：本 fork 针对 Alt + Tab 界面依然存在 MainWindow 的问题进行了修复，仅用于个人学习和研究！
+
 # VPet-Simulator
 
 虚拟桌宠模拟器 一个开源的桌宠软件, 可以内置到任何WPF应用程序
